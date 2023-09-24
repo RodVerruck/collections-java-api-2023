@@ -12,7 +12,7 @@ public class OrdenacaoPessoa {
     }
 
     public void adicionarPessoa(String nome, int idade, double altura) {
-        pessoaList.add(new Pessoa(nome, idade, altura))
+        pessoaList.add(new Pessoa(nome, idade, altura));
     }
 
     public List<Pessoa> ordenarPorIdade() {
